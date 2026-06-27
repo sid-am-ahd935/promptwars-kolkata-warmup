@@ -1,0 +1,22 @@
+/* App-level layout overrides and footer */
+
+.app-footer {
+  margin-top: auto;
+  padding: var(--space-md) var(--space-lg);
+  text-align: center;
+  border-radius: 0;
+  border-top: 1px solid var(--glass-border);
+  font-size: var(--text-xs);
+  color: var(--text-tertiary);
+}
+
+.footer-heart {
+  color: var(--accent-red);
+  animation: float 2s ease-in-out infinite;
+  display: inline-block;
+}
+
+.footer-divider {
+  margin: 0 var(--space-xs);
+  opacity: 0.3;
+}

@@ -1,0 +1,121 @@
+.picker-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+  padding: var(--space-lg);
+}
+
+.picker-modal {
+  width: 100%;
+  max-width: 520px;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.picker-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-md) var(--space-lg);
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.picker-header-title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.picker-header-title h3 {
+  font-size: var(--text-lg);
+  font-weight: 600;
+}
+
+.picker-category-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.picker-filters {
+  padding: var(--space-md) var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.picker-search {
+  width: 100%;
+}
+
+.picker-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2xs);
+}
+
+.tag-active {
+  background: rgba(139, 92, 246, 0.2) !important;
+  color: var(--accent-violet) !important;
+  border-color: var(--accent-violet) !important;
+}
+
+.picker-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--space-sm);
+}
+
+.picker-recipe-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: var(--space-sm) var(--space-md);
+  border: 1px solid transparent;
+  border-radius: var(--radius-md);
+  background: transparent;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  font-family: var(--font-family);
+  text-align: left;
+}
+
+.picker-recipe-card:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--glass-border);
+  transform: translateX(4px);
+}
+
+.picker-recipe-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.picker-recipe-title {
+  font-size: var(--text-base);
+  font-weight: 500;
+}
+
+.picker-recipe-tags {
+  display: flex;
+  gap: 4px;
+}
+
+.picker-empty {
+  text-align: center;
+  padding: var(--space-xl);
+  color: var(--text-tertiary);
+  font-size: var(--text-sm);
+}

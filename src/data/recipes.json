@@ -1,0 +1,314 @@
+[
+  {
+    "id": "r001",
+    "title": "Masala Dosa",
+    "category": "Breakfast",
+    "baseCost": 45,
+    "tags": ["south-indian", "vegetarian", "crispy", "fermented", "quick"],
+    "ingredients": [
+      { "ingredientId": "i001", "quantity": 0.15, "unit": "kg" },
+      { "ingredientId": "i003", "quantity": 0.2, "unit": "kg" },
+      { "ingredientId": "i010", "quantity": 0.05, "unit": "kg" },
+      { "ingredientId": "i011", "quantity": 0.02, "unit": "ltr" }
+    ]
+  },
+  {
+    "id": "r002",
+    "title": "Poha",
+    "category": "Breakfast",
+    "baseCost": 25,
+    "tags": ["indian", "vegetarian", "quick", "light", "peanuts"],
+    "ingredients": [
+      { "ingredientId": "i005", "quantity": 0.15, "unit": "kg" },
+      { "ingredientId": "i010", "quantity": 0.05, "unit": "kg" },
+      { "ingredientId": "i017", "quantity": 0.03, "unit": "kg" },
+      { "ingredientId": "i011", "quantity": 0.02, "unit": "ltr" }
+    ]
+  },
+  {
+    "id": "r003",
+    "title": "French Toast",
+    "category": "Breakfast",
+    "baseCost": 40,
+    "tags": ["continental", "egg", "sweet", "quick", "bread"],
+    "ingredients": [
+      { "ingredientId": "i006", "quantity": 4, "unit": "pcs" },
+      { "ingredientId": "i007", "quantity": 2, "unit": "pcs" },
+      { "ingredientId": "i012", "quantity": 0.1, "unit": "ltr" },
+      { "ingredientId": "i008", "quantity": 0.02, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "r004",
+    "title": "Congee with Ginger",
+    "category": "Breakfast",
+    "baseCost": 30,
+    "tags": ["asian", "rice", "comfort", "light", "ginger"],
+    "ingredients": [
+      { "ingredientId": "i001", "quantity": 0.1, "unit": "kg" },
+      { "ingredientId": "i018", "quantity": 0.02, "unit": "kg" },
+      { "ingredientId": "i019", "quantity": 0.01, "unit": "ltr" },
+      { "ingredientId": "i020", "quantity": 0.01, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "r005",
+    "title": "Avocado Toast",
+    "category": "Breakfast",
+    "baseCost": 85,
+    "tags": ["continental", "vegetarian", "healthy", "quick", "bread"],
+    "ingredients": [
+      { "ingredientId": "i006", "quantity": 2, "unit": "pcs" },
+      { "ingredientId": "i021", "quantity": 1, "unit": "pcs" },
+      { "ingredientId": "i022", "quantity": 0.5, "unit": "pcs" },
+      { "ingredientId": "i011", "quantity": 0.01, "unit": "ltr" }
+    ]
+  },
+  {
+    "id": "r006",
+    "title": "Idli Sambar",
+    "category": "Breakfast",
+    "baseCost": 35,
+    "tags": ["south-indian", "vegetarian", "fermented", "steamed", "healthy"],
+    "ingredients": [
+      { "ingredientId": "i001", "quantity": 0.1, "unit": "kg" },
+      { "ingredientId": "i003", "quantity": 0.1, "unit": "kg" },
+      { "ingredientId": "i004", "quantity": 0.05, "unit": "kg" },
+      { "ingredientId": "i010", "quantity": 0.03, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "r007",
+    "title": "Miso Soup with Tofu",
+    "category": "Breakfast",
+    "baseCost": 50,
+    "tags": ["asian", "vegetarian", "light", "umami", "quick"],
+    "ingredients": [
+      { "ingredientId": "i023", "quantity": 0.03, "unit": "kg" },
+      { "ingredientId": "i024", "quantity": 0.1, "unit": "kg" },
+      { "ingredientId": "i020", "quantity": 0.02, "unit": "kg" },
+      { "ingredientId": "i019", "quantity": 0.01, "unit": "ltr" }
+    ]
+  },
+  {
+    "id": "r008",
+    "title": "Pancakes with Maple Syrup",
+    "category": "Breakfast",
+    "baseCost": 55,
+    "tags": ["continental", "sweet", "egg", "fluffy", "indulgent"],
+    "ingredients": [
+      { "ingredientId": "i025", "quantity": 0.15, "unit": "kg" },
+      { "ingredientId": "i007", "quantity": 2, "unit": "pcs" },
+      { "ingredientId": "i012", "quantity": 0.15, "unit": "ltr" },
+      { "ingredientId": "i008", "quantity": 0.03, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "r009",
+    "title": "Rajma Chawal",
+    "category": "Lunch",
+    "baseCost": 60,
+    "tags": ["north-indian", "vegetarian", "protein", "comfort", "spicy"],
+    "ingredients": [
+      { "ingredientId": "i001", "quantity": 0.2, "unit": "kg" },
+      { "ingredientId": "i026", "quantity": 0.1, "unit": "kg" },
+      { "ingredientId": "i010", "quantity": 0.1, "unit": "kg" },
+      { "ingredientId": "i011", "quantity": 0.03, "unit": "ltr" }
+    ]
+  },
+  {
+    "id": "r010",
+    "title": "Chicken Biryani",
+    "category": "Lunch",
+    "baseCost": 120,
+    "tags": ["indian", "non-veg", "rice", "aromatic", "spicy"],
+    "ingredients": [
+      { "ingredientId": "i001", "quantity": 0.3, "unit": "kg" },
+      { "ingredientId": "i013", "quantity": 0.25, "unit": "kg" },
+      { "ingredientId": "i010", "quantity": 0.1, "unit": "kg" },
+      { "ingredientId": "i011", "quantity": 0.05, "unit": "ltr" }
+    ]
+  },
+  {
+    "id": "r011",
+    "title": "Grilled Chicken Caesar Salad",
+    "category": "Lunch",
+    "baseCost": 130,
+    "tags": ["continental", "non-veg", "healthy", "salad", "protein"],
+    "ingredients": [
+      { "ingredientId": "i013", "quantity": 0.2, "unit": "kg" },
+      { "ingredientId": "i027", "quantity": 0.15, "unit": "kg" },
+      { "ingredientId": "i028", "quantity": 0.03, "unit": "kg" },
+      { "ingredientId": "i011", "quantity": 0.03, "unit": "ltr" }
+    ]
+  },
+  {
+    "id": "r012",
+    "title": "Pad Thai",
+    "category": "Lunch",
+    "baseCost": 90,
+    "tags": ["asian", "noodles", "tangy", "peanuts", "quick"],
+    "ingredients": [
+      { "ingredientId": "i029", "quantity": 0.15, "unit": "kg" },
+      { "ingredientId": "i024", "quantity": 0.1, "unit": "kg" },
+      { "ingredientId": "i017", "quantity": 0.03, "unit": "kg" },
+      { "ingredientId": "i019", "quantity": 0.02, "unit": "ltr" }
+    ]
+  },
+  {
+    "id": "r013",
+    "title": "Chole Bhature",
+    "category": "Lunch",
+    "baseCost": 55,
+    "tags": ["north-indian", "vegetarian", "fried", "protein", "spicy"],
+    "ingredients": [
+      { "ingredientId": "i030", "quantity": 0.15, "unit": "kg" },
+      { "ingredientId": "i025", "quantity": 0.15, "unit": "kg" },
+      { "ingredientId": "i010", "quantity": 0.08, "unit": "kg" },
+      { "ingredientId": "i011", "quantity": 0.1, "unit": "ltr" }
+    ]
+  },
+  {
+    "id": "r014",
+    "title": "Sushi Bowl",
+    "category": "Lunch",
+    "baseCost": 110,
+    "tags": ["asian", "rice", "healthy", "umami", "fresh"],
+    "ingredients": [
+      { "ingredientId": "i001", "quantity": 0.15, "unit": "kg" },
+      { "ingredientId": "i031", "quantity": 0.1, "unit": "kg" },
+      { "ingredientId": "i021", "quantity": 0.5, "unit": "pcs" },
+      { "ingredientId": "i019", "quantity": 0.02, "unit": "ltr" }
+    ]
+  },
+  {
+    "id": "r015",
+    "title": "Margherita Pizza",
+    "category": "Lunch",
+    "baseCost": 100,
+    "tags": ["continental", "vegetarian", "cheese", "baked", "comfort"],
+    "ingredients": [
+      { "ingredientId": "i025", "quantity": 0.2, "unit": "kg" },
+      { "ingredientId": "i032", "quantity": 0.1, "unit": "kg" },
+      { "ingredientId": "i010", "quantity": 0.05, "unit": "kg" },
+      { "ingredientId": "i011", "quantity": 0.03, "unit": "ltr" }
+    ]
+  },
+  {
+    "id": "r016",
+    "title": "Dal Makhani with Roti",
+    "category": "Dinner",
+    "baseCost": 50,
+    "tags": ["north-indian", "vegetarian", "creamy", "protein", "comfort"],
+    "ingredients": [
+      { "ingredientId": "i004", "quantity": 0.15, "unit": "kg" },
+      { "ingredientId": "i025", "quantity": 0.15, "unit": "kg" },
+      { "ingredientId": "i014", "quantity": 0.05, "unit": "kg" },
+      { "ingredientId": "i011", "quantity": 0.03, "unit": "ltr" }
+    ]
+  },
+  {
+    "id": "r017",
+    "title": "Grilled Salmon",
+    "category": "Dinner",
+    "baseCost": 250,
+    "tags": ["continental", "non-veg", "healthy", "protein", "omega-3"],
+    "ingredients": [
+      { "ingredientId": "i031", "quantity": 0.2, "unit": "kg" },
+      { "ingredientId": "i022", "quantity": 1, "unit": "pcs" },
+      { "ingredientId": "i011", "quantity": 0.03, "unit": "ltr" },
+      { "ingredientId": "i027", "quantity": 0.1, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "r018",
+    "title": "Thai Green Curry",
+    "category": "Dinner",
+    "baseCost": 95,
+    "tags": ["asian", "spicy", "coconut", "aromatic", "comfort"],
+    "ingredients": [
+      { "ingredientId": "i013", "quantity": 0.2, "unit": "kg" },
+      { "ingredientId": "i033", "quantity": 0.2, "unit": "ltr" },
+      { "ingredientId": "i010", "quantity": 0.08, "unit": "kg" },
+      { "ingredientId": "i001", "quantity": 0.15, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "r019",
+    "title": "Palak Paneer with Naan",
+    "category": "Dinner",
+    "baseCost": 75,
+    "tags": ["north-indian", "vegetarian", "creamy", "cheese", "healthy"],
+    "ingredients": [
+      { "ingredientId": "i034", "quantity": 0.2, "unit": "kg" },
+      { "ingredientId": "i032", "quantity": 0.15, "unit": "kg" },
+      { "ingredientId": "i025", "quantity": 0.1, "unit": "kg" },
+      { "ingredientId": "i011", "quantity": 0.03, "unit": "ltr" }
+    ]
+  },
+  {
+    "id": "r020",
+    "title": "Pasta Aglio e Olio",
+    "category": "Dinner",
+    "baseCost": 70,
+    "tags": ["continental", "vegetarian", "quick", "garlic", "comfort"],
+    "ingredients": [
+      { "ingredientId": "i035", "quantity": 0.15, "unit": "kg" },
+      { "ingredientId": "i011", "quantity": 0.05, "unit": "ltr" },
+      { "ingredientId": "i036", "quantity": 0.02, "unit": "kg" },
+      { "ingredientId": "i037", "quantity": 0.01, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "r021",
+    "title": "Teriyaki Chicken Rice",
+    "category": "Dinner",
+    "baseCost": 100,
+    "tags": ["asian", "non-veg", "rice", "sweet", "umami"],
+    "ingredients": [
+      { "ingredientId": "i013", "quantity": 0.2, "unit": "kg" },
+      { "ingredientId": "i001", "quantity": 0.15, "unit": "kg" },
+      { "ingredientId": "i019", "quantity": 0.03, "unit": "ltr" },
+      { "ingredientId": "i008", "quantity": 0.02, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "r022",
+    "title": "Egg Fried Rice",
+    "category": "Dinner",
+    "baseCost": 45,
+    "tags": ["asian", "egg", "rice", "quick", "comfort"],
+    "ingredients": [
+      { "ingredientId": "i001", "quantity": 0.2, "unit": "kg" },
+      { "ingredientId": "i007", "quantity": 3, "unit": "pcs" },
+      { "ingredientId": "i019", "quantity": 0.02, "unit": "ltr" },
+      { "ingredientId": "i010", "quantity": 0.05, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "r023",
+    "title": "Mushroom Risotto",
+    "category": "Dinner",
+    "baseCost": 115,
+    "tags": ["continental", "vegetarian", "creamy", "cheese", "aromatic"],
+    "ingredients": [
+      { "ingredientId": "i038", "quantity": 0.15, "unit": "kg" },
+      { "ingredientId": "i039", "quantity": 0.15, "unit": "kg" },
+      { "ingredientId": "i014", "quantity": 0.03, "unit": "kg" },
+      { "ingredientId": "i032", "quantity": 0.05, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "r024",
+    "title": "Fish Curry with Rice",
+    "category": "Dinner",
+    "baseCost": 90,
+    "tags": ["indian", "non-veg", "spicy", "coconut", "rice"],
+    "ingredients": [
+      { "ingredientId": "i040", "quantity": 0.25, "unit": "kg" },
+      { "ingredientId": "i001", "quantity": 0.15, "unit": "kg" },
+      { "ingredientId": "i033", "quantity": 0.1, "unit": "ltr" },
+      { "ingredientId": "i010", "quantity": 0.05, "unit": "kg" }
+    ]
+  }
+]

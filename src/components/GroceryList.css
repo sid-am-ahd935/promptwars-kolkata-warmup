@@ -1,0 +1,103 @@
+.grocery-section {
+  /* Section container */
+}
+
+.grocery-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-2xl);
+  text-align: center;
+}
+
+.grocery-empty-icon {
+  font-size: 2.5rem;
+  opacity: 0.3;
+}
+
+.grocery-empty p {
+  color: var(--text-tertiary);
+  font-size: var(--text-sm);
+}
+
+.grocery-sort {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+.grocery-sort .input {
+  font-size: var(--text-xs);
+  padding: 4px 8px;
+}
+
+.grocery-table-wrapper {
+  overflow-x: auto;
+  padding: 0;
+}
+
+.grocery-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--text-sm);
+}
+
+.grocery-table th {
+  padding: var(--space-sm) var(--space-md);
+  text-align: left;
+  font-size: var(--text-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-tertiary);
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.grocery-table td {
+  padding: var(--space-xs) var(--space-md);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+  vertical-align: middle;
+}
+
+.grocery-table tbody tr {
+  transition: background var(--transition-fast);
+}
+
+.grocery-table tbody tr:hover {
+  background: var(--bg-card-hover);
+}
+
+.grocery-row-substituted {
+  background: var(--accent-green-soft) !important;
+}
+
+.grocery-name-cell {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+.grocery-sub-badge {
+  font-size: 0.55rem;
+}
+
+.grocery-unit {
+  color: var(--text-tertiary);
+  font-size: var(--text-xs);
+}
+
+.text-right {
+  text-align: right;
+}
+
+.grocery-total-row {
+  border-top: 2px solid var(--glass-border) !important;
+}
+
+.grocery-total-row td {
+  padding: var(--space-sm) var(--space-md);
+  font-size: var(--text-base);
+  border-bottom: none;
+}

@@ -1,0 +1,535 @@
+[
+  {
+    "id": "i001",
+    "name": "Basmati Rice",
+    "pricePerUnit": 80,
+    "unit": "kg",
+    "substitutes": [
+      { "ingredientId": "i002", "name": "Brown Rice", "pricePerUnit": 65, "unit": "kg" },
+      { "ingredientId": "i041", "name": "Broken Wheat", "pricePerUnit": 40, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "i002",
+    "name": "Brown Rice",
+    "pricePerUnit": 65,
+    "unit": "kg",
+    "substitutes": [
+      { "ingredientId": "i041", "name": "Broken Wheat", "pricePerUnit": 40, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "i003",
+    "name": "Urad Dal",
+    "pricePerUnit": 120,
+    "unit": "kg",
+    "substitutes": [
+      { "ingredientId": "i004", "name": "Moong Dal", "pricePerUnit": 95, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "i004",
+    "name": "Moong Dal",
+    "pricePerUnit": 95,
+    "unit": "kg",
+    "substitutes": [
+      { "ingredientId": "i042", "name": "Masoor Dal", "pricePerUnit": 75, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "i005",
+    "name": "Flattened Rice (Poha)",
+    "pricePerUnit": 55,
+    "unit": "kg",
+    "substitutes": [
+      { "ingredientId": "i043", "name": "Oats", "pricePerUnit": 45, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "i006",
+    "name": "Bread Slices",
+    "pricePerUnit": 8,
+    "unit": "pcs",
+    "substitutes": [
+      { "ingredientId": "i044", "name": "Roti/Chapati", "pricePerUnit": 5, "unit": "pcs" }
+    ]
+  },
+  {
+    "id": "i007",
+    "name": "Eggs",
+    "pricePerUnit": 7,
+    "unit": "pcs",
+    "substitutes": [
+      { "ingredientId": "i045", "name": "Banana (binder)", "pricePerUnit": 4, "unit": "pcs" }
+    ]
+  },
+  {
+    "id": "i008",
+    "name": "Sugar",
+    "pricePerUnit": 45,
+    "unit": "kg",
+    "substitutes": [
+      { "ingredientId": "i046", "name": "Jaggery", "pricePerUnit": 50, "unit": "kg" },
+      { "ingredientId": "i047", "name": "Honey", "pricePerUnit": 350, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "i010",
+    "name": "Onion & Tomato Mix",
+    "pricePerUnit": 40,
+    "unit": "kg",
+    "substitutes": [
+      { "ingredientId": "i048", "name": "Canned Tomatoes", "pricePerUnit": 30, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "i011",
+    "name": "Cooking Oil",
+    "pricePerUnit": 160,
+    "unit": "ltr",
+    "substitutes": [
+      { "ingredientId": "i049", "name": "Mustard Oil", "pricePerUnit": 130, "unit": "ltr" },
+      { "ingredientId": "i050", "name": "Groundnut Oil", "pricePerUnit": 145, "unit": "ltr" }
+    ]
+  },
+  {
+    "id": "i012",
+    "name": "Milk",
+    "pricePerUnit": 56,
+    "unit": "ltr",
+    "substitutes": [
+      { "ingredientId": "i051", "name": "Soy Milk", "pricePerUnit": 80, "unit": "ltr" },
+      { "ingredientId": "i052", "name": "Diluted Curd", "pricePerUnit": 40, "unit": "ltr" }
+    ]
+  },
+  {
+    "id": "i013",
+    "name": "Chicken",
+    "pricePerUnit": 220,
+    "unit": "kg",
+    "substitutes": [
+      { "ingredientId": "i053", "name": "Soya Chunks", "pricePerUnit": 90, "unit": "kg" },
+      { "ingredientId": "i024", "name": "Tofu", "pricePerUnit": 120, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "i014",
+    "name": "Butter",
+    "pricePerUnit": 480,
+    "unit": "kg",
+    "substitutes": [
+      { "ingredientId": "i054", "name": "Ghee", "pricePerUnit": 550, "unit": "kg" },
+      { "ingredientId": "i011", "name": "Cooking Oil", "pricePerUnit": 160, "unit": "ltr" }
+    ]
+  },
+  {
+    "id": "i017",
+    "name": "Peanuts",
+    "pricePerUnit": 130,
+    "unit": "kg",
+    "substitutes": [
+      { "ingredientId": "i055", "name": "Roasted Chana", "pricePerUnit": 80, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "i018",
+    "name": "Ginger",
+    "pricePerUnit": 100,
+    "unit": "kg",
+    "substitutes": [
+      { "ingredientId": "i056", "name": "Ginger Powder", "pricePerUnit": 200, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "i019",
+    "name": "Soy Sauce",
+    "pricePerUnit": 120,
+    "unit": "ltr",
+    "substitutes": [
+      { "ingredientId": "i057", "name": "Tamari", "pricePerUnit": 150, "unit": "ltr" }
+    ]
+  },
+  {
+    "id": "i020",
+    "name": "Spring Onion",
+    "pricePerUnit": 60,
+    "unit": "kg",
+    "substitutes": [
+      { "ingredientId": "i010", "name": "Onion & Tomato Mix", "pricePerUnit": 40, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "i021",
+    "name": "Avocado",
+    "pricePerUnit": 80,
+    "unit": "pcs",
+    "substitutes": [
+      { "ingredientId": "i058", "name": "Hummus", "pricePerUnit": 50, "unit": "pcs" }
+    ]
+  },
+  {
+    "id": "i022",
+    "name": "Lemon",
+    "pricePerUnit": 5,
+    "unit": "pcs",
+    "substitutes": [
+      { "ingredientId": "i059", "name": "Lime", "pricePerUnit": 3, "unit": "pcs" }
+    ]
+  },
+  {
+    "id": "i023",
+    "name": "Miso Paste",
+    "pricePerUnit": 600,
+    "unit": "kg",
+    "substitutes": [
+      { "ingredientId": "i019", "name": "Soy Sauce", "pricePerUnit": 120, "unit": "ltr" }
+    ]
+  },
+  {
+    "id": "i024",
+    "name": "Tofu",
+    "pricePerUnit": 120,
+    "unit": "kg",
+    "substitutes": [
+      { "ingredientId": "i034", "name": "Paneer", "pricePerUnit": 320, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "i025",
+    "name": "All-Purpose Flour (Maida)",
+    "pricePerUnit": 40,
+    "unit": "kg",
+    "substitutes": [
+      { "ingredientId": "i060", "name": "Whole Wheat Flour (Atta)", "pricePerUnit": 35, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "i026",
+    "name": "Kidney Beans (Rajma)",
+    "pricePerUnit": 130,
+    "unit": "kg",
+    "substitutes": [
+      { "ingredientId": "i030", "name": "Chickpeas (Chole)", "pricePerUnit": 100, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "i027",
+    "name": "Lettuce",
+    "pricePerUnit": 80,
+    "unit": "kg",
+    "substitutes": [
+      { "ingredientId": "i061", "name": "Cabbage", "pricePerUnit": 30, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "i028",
+    "name": "Parmesan Cheese",
+    "pricePerUnit": 1200,
+    "unit": "kg",
+    "substitutes": [
+      { "ingredientId": "i032", "name": "Paneer", "pricePerUnit": 320, "unit": "kg" },
+      { "ingredientId": "i062", "name": "Nutritional Yeast", "pricePerUnit": 500, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "i029",
+    "name": "Rice Noodles",
+    "pricePerUnit": 100,
+    "unit": "kg",
+    "substitutes": [
+      { "ingredientId": "i035", "name": "Pasta (Penne)", "pricePerUnit": 75, "unit": "kg" },
+      { "ingredientId": "i063", "name": "Vermicelli (Sevai)", "pricePerUnit": 55, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "i030",
+    "name": "Chickpeas (Chole)",
+    "pricePerUnit": 100,
+    "unit": "kg",
+    "substitutes": [
+      { "ingredientId": "i042", "name": "Masoor Dal", "pricePerUnit": 75, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "i031",
+    "name": "Salmon Fillet",
+    "pricePerUnit": 1800,
+    "unit": "kg",
+    "substitutes": [
+      { "ingredientId": "i040", "name": "Rohu Fish", "pricePerUnit": 250, "unit": "kg" },
+      { "ingredientId": "i064", "name": "Surimi (Imitation)", "pricePerUnit": 400, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "i032",
+    "name": "Paneer",
+    "pricePerUnit": 320,
+    "unit": "kg",
+    "substitutes": [
+      { "ingredientId": "i024", "name": "Tofu", "pricePerUnit": 120, "unit": "kg" },
+      { "ingredientId": "i053", "name": "Soya Chunks", "pricePerUnit": 90, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "i033",
+    "name": "Coconut Milk",
+    "pricePerUnit": 180,
+    "unit": "ltr",
+    "substitutes": [
+      { "ingredientId": "i012", "name": "Milk", "pricePerUnit": 56, "unit": "ltr" },
+      { "ingredientId": "i052", "name": "Diluted Curd", "pricePerUnit": 40, "unit": "ltr" }
+    ]
+  },
+  {
+    "id": "i034",
+    "name": "Spinach (Palak)",
+    "pricePerUnit": 40,
+    "unit": "kg",
+    "substitutes": [
+      { "ingredientId": "i065", "name": "Methi Leaves", "pricePerUnit": 30, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "i035",
+    "name": "Pasta (Penne)",
+    "pricePerUnit": 75,
+    "unit": "kg",
+    "substitutes": [
+      { "ingredientId": "i063", "name": "Vermicelli (Sevai)", "pricePerUnit": 55, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "i036",
+    "name": "Garlic",
+    "pricePerUnit": 150,
+    "unit": "kg",
+    "substitutes": [
+      { "ingredientId": "i066", "name": "Garlic Powder", "pricePerUnit": 250, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "i037",
+    "name": "Red Chilli Flakes",
+    "pricePerUnit": 300,
+    "unit": "kg",
+    "substitutes": [
+      { "ingredientId": "i067", "name": "Red Chilli Powder", "pricePerUnit": 200, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "i038",
+    "name": "Arborio Rice",
+    "pricePerUnit": 250,
+    "unit": "kg",
+    "substitutes": [
+      { "ingredientId": "i001", "name": "Basmati Rice", "pricePerUnit": 80, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "i039",
+    "name": "Mushrooms",
+    "pricePerUnit": 200,
+    "unit": "kg",
+    "substitutes": [
+      { "ingredientId": "i061", "name": "Cabbage", "pricePerUnit": 30, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "i040",
+    "name": "Rohu Fish",
+    "pricePerUnit": 250,
+    "unit": "kg",
+    "substitutes": [
+      { "ingredientId": "i053", "name": "Soya Chunks", "pricePerUnit": 90, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "i041",
+    "name": "Broken Wheat",
+    "pricePerUnit": 40,
+    "unit": "kg",
+    "substitutes": []
+  },
+  {
+    "id": "i042",
+    "name": "Masoor Dal",
+    "pricePerUnit": 75,
+    "unit": "kg",
+    "substitutes": []
+  },
+  {
+    "id": "i043",
+    "name": "Oats",
+    "pricePerUnit": 45,
+    "unit": "kg",
+    "substitutes": []
+  },
+  {
+    "id": "i044",
+    "name": "Roti/Chapati",
+    "pricePerUnit": 5,
+    "unit": "pcs",
+    "substitutes": []
+  },
+  {
+    "id": "i045",
+    "name": "Banana (binder)",
+    "pricePerUnit": 4,
+    "unit": "pcs",
+    "substitutes": []
+  },
+  {
+    "id": "i046",
+    "name": "Jaggery",
+    "pricePerUnit": 50,
+    "unit": "kg",
+    "substitutes": []
+  },
+  {
+    "id": "i047",
+    "name": "Honey",
+    "pricePerUnit": 350,
+    "unit": "kg",
+    "substitutes": []
+  },
+  {
+    "id": "i048",
+    "name": "Canned Tomatoes",
+    "pricePerUnit": 30,
+    "unit": "kg",
+    "substitutes": []
+  },
+  {
+    "id": "i049",
+    "name": "Mustard Oil",
+    "pricePerUnit": 130,
+    "unit": "ltr",
+    "substitutes": []
+  },
+  {
+    "id": "i050",
+    "name": "Groundnut Oil",
+    "pricePerUnit": 145,
+    "unit": "ltr",
+    "substitutes": []
+  },
+  {
+    "id": "i051",
+    "name": "Soy Milk",
+    "pricePerUnit": 80,
+    "unit": "ltr",
+    "substitutes": []
+  },
+  {
+    "id": "i052",
+    "name": "Diluted Curd",
+    "pricePerUnit": 40,
+    "unit": "ltr",
+    "substitutes": []
+  },
+  {
+    "id": "i053",
+    "name": "Soya Chunks",
+    "pricePerUnit": 90,
+    "unit": "kg",
+    "substitutes": []
+  },
+  {
+    "id": "i054",
+    "name": "Ghee",
+    "pricePerUnit": 550,
+    "unit": "kg",
+    "substitutes": []
+  },
+  {
+    "id": "i055",
+    "name": "Roasted Chana",
+    "pricePerUnit": 80,
+    "unit": "kg",
+    "substitutes": []
+  },
+  {
+    "id": "i056",
+    "name": "Ginger Powder",
+    "pricePerUnit": 200,
+    "unit": "kg",
+    "substitutes": []
+  },
+  {
+    "id": "i057",
+    "name": "Tamari",
+    "pricePerUnit": 150,
+    "unit": "ltr",
+    "substitutes": []
+  },
+  {
+    "id": "i058",
+    "name": "Hummus",
+    "pricePerUnit": 50,
+    "unit": "pcs",
+    "substitutes": []
+  },
+  {
+    "id": "i059",
+    "name": "Lime",
+    "pricePerUnit": 3,
+    "unit": "pcs",
+    "substitutes": []
+  },
+  {
+    "id": "i060",
+    "name": "Whole Wheat Flour (Atta)",
+    "pricePerUnit": 35,
+    "unit": "kg",
+    "substitutes": []
+  },
+  {
+    "id": "i061",
+    "name": "Cabbage",
+    "pricePerUnit": 30,
+    "unit": "kg",
+    "substitutes": []
+  },
+  {
+    "id": "i062",
+    "name": "Nutritional Yeast",
+    "pricePerUnit": 500,
+    "unit": "kg",
+    "substitutes": []
+  },
+  {
+    "id": "i063",
+    "name": "Vermicelli (Sevai)",
+    "pricePerUnit": 55,
+    "unit": "kg",
+    "substitutes": []
+  },
+  {
+    "id": "i064",
+    "name": "Surimi (Imitation)",
+    "pricePerUnit": 400,
+    "unit": "kg",
+    "substitutes": []
+  },
+  {
+    "id": "i065",
+    "name": "Methi Leaves",
+    "pricePerUnit": 30,
+    "unit": "kg",
+    "substitutes": []
+  },
+  {
+    "id": "i066",
+    "name": "Garlic Powder",
+    "pricePerUnit": 250,
+    "unit": "kg",
+    "substitutes": []
+  },
+  {
+    "id": "i067",
+    "name": "Red Chilli Powder",
+    "pricePerUnit": 200,
+    "unit": "kg",
+    "substitutes": []
+  }
+]
